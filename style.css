@@ -1,0 +1,10 @@
+body{
+    margin:0;
+}
+
+#header{
+    font-size: 60px;
+    padding: 30px;
+    width:100%;
+    background-color: magenta;
+}
