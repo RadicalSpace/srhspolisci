@@ -5,6 +5,9 @@ body{
 #content{
     background-color: #cccccc;
     border-radius: 8px;
-    border: 1px ridge #888888;
-    margin:20%
+    border: 2px ridge #888888;
+    width:80%;
+    margin-left:10%;
+    margin-top:5%;
+    margin-bottom: 5%;
 }
