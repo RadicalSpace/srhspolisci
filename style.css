@@ -2,12 +2,9 @@ body{
     margin:0;
 }
 
-#header{
-    font-size: 60px;
-    padding: 30px;
-    width:100%;
-    background-color: #eaeaea;
-    text-align: center;
-    font-family:Helvetica;
-    font-weight: 600;
+#content{
+    background-color: #cccccc;
+    border-radius: 8px;
+    border: 1 solid #888888;
+    margin:20%
 }
