@@ -4,18 +4,28 @@ body{
 }
 
 @font-face {
-    font-family: "Helvetica-Neue";
-    src: url("./helvetica-neue/HelveticaNeueMedium.otf") format("truetype");
+    font-family: "IBM-Plex-Sans";
+    src: url("./IBM_Plex_Sans/IBMPlexSans-Regular.ttf") format("truetype");
 }
 
 #content{
     background-color: #E6E9ED;
-    border-radius: 8px;
-    border: 1px ridge #888888;
+    border-radius: 6px;
+    border: 1px ridge #dee0e4;
     width:80%;
     margin:auto;
-    margin-top:5%;
-    margin-bottom: 5%;
+    margin-top:1%;
     padding:1%;
-    font-family: Helvetica-Neue;
+    font-family: IBM-Plex-Sans;
+    font-weight: 900;
+}
+
+#mainWrap{
+    color:white;
+    font-size:24px;
+    background: linear-gradient(#6eb4d7,#6bceff);
+    padding: 1%;
+    border-radius: 6px;
+    margin: auto;
+    width:98%;
 }
