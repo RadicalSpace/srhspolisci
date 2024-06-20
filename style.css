@@ -21,11 +21,27 @@ body{
 }
 
 #mainWrap{
+    position: relative;
     color:white;
-    font-size:24px;
-    background: linear-gradient(#6eb4d7,#6bceff);
-    padding: 1%;
-    border-radius: 6px;
-    margin: auto;
+    left:2px;
+    top:2px;
+    width:calc(100% - 4px);
+}
+
+#title{
+    font-size:36px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding:1%;
     width:98%;
+    background: linear-gradient(#6eb4d7,#6bceff);
+}
+
+#options{
+    padding:0.5%;
+    width:99%;
+    background-color: #d2d5d9;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: 1px solid #979b9f;
 }
