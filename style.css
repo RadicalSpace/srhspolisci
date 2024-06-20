@@ -1,13 +1,21 @@
 body{
     margin:0;
+    background-color: #F5F7FA;
+}
+
+@font-face {
+    font-family: "Helvetica-Neue";
+    src: url("./helvetica-neue/HelveticaNeueMedium.otf") format("truetype");
 }
 
 #content{
-    background-color: #cccccc;
+    background-color: #E6E9ED;
     border-radius: 8px;
-    border: 2px ridge #888888;
+    border: 1px ridge #888888;
     width:80%;
-    margin-left:10%;
+    margin:auto;
     margin-top:5%;
     margin-bottom: 5%;
+    padding:1%;
+    font-family: Helvetica-Neue;
 }
